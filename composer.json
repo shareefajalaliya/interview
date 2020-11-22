@@ -1,0 +1,11 @@
+{
+    "require": {
+        "blocktrail/blocktrail-sdk": "^1.2",
+        "authy/php": "2.*"
+    },
+   "autoload": {
+       "psr-0": {  "Blocktrail\\SDK\\": "backoffice/application/controllers/" }
+   }
+
+   
+}

@@ -1,0 +1,50 @@
+
+.box-login > .row > div:first-child, .box-forgot > .row > div:first-child {
+	text-align: center;
+	padding: 40px;
+	background-repeat: repeat-x;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box-login > .row > div:last-child, .box-forgot > .row > div:last-child {
+	padding: 50px;
+	background-color: #fff;
+	    min-height: 423px;
+}
+
+@media (max-width: 1200px) {
+	body.login .box-login{
+		top: 0px;
+	}
+	body.login .box-forgot{
+		top: 0px;
+	}
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 2px;    
+    border: 1px solid #ececec;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: transparent;
+}
+.alert {
+    margin-top: 20px;
+}
+.green-bg{
+
+background-color: #40C02C;
+background-image: linear-gradient(to bottom, #2CC30F 0%, #3c9210 100%);
+}
+.blue-bg{
+background-color: #41F0FF;
+background-image: linear-gradient(to bottom, #41F0FF 0%, #1fa6ab 100%);
+}

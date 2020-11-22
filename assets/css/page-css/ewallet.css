@@ -1,0 +1,170 @@
+
+.btn-info {
+    color: #fff;
+    background-color: #1FBBA6;
+    border-color: #1FBBA6;
+}
+.btn-info.active, .btn-info.focus, .btn-info:active, .btn-info:focus, .btn-info:hover, .open>.dropdown-toggle.btn-info {
+    color: #fff;
+    background-color: #1FBBA6;
+    border-color: #1FBBA6;
+}
+td.pending {
+    color: #F99C40;
+    font-weight: 600;
+}
+td.cancel {
+    color: #E64937;
+    font-weight: 600;
+}
+td.complete {
+    color: #2EDA84;
+}
+select.form-control {
+    background-color: #FFFFFF;
+    border: 1px solid #1FBBA6;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background: #1FBBA6;
+    box-shadow: none !important;
+    max-width: 152px;
+}
+
+.bonus_list li a {
+    padding: 8px 9px 8px 43px;
+    background-color: #FFFFFF;
+    border: 1px solid #1FBBA6;
+    border-radius: 4px;
+    color: #FFFFFF;
+    float: left;
+    background: #1FBBA6;
+    box-shadow: none !important;
+    width: 212px;
+    margin-left: 27px;
+}
+.bonus-blue {
+    padding: 5px 0px 5px 7px;
+    color: #ffffff;
+    border-radius: 4px;
+    background: #1FBBA6;
+    width: 212px;
+}
+
+.bonus-light:hover {
+    color: #ffffff;
+    border-radius: 4px;
+    background: #1FBBA6;
+}
+.mfk_overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    border: none;
+    display: none;
+    top: 0;
+    background: rgba(126, 209, 218, 0.74);
+    bottom: 0;
+    z-index: 99999999;
+}
+.withdraw_popup,.convert_popup {
+    position:relative;
+    max-width: 300px;
+    background: white;
+    padding: 10px;
+    margin: auto;
+    transition: all 1s ease;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    border-radius: 2px;
+    box-shadow: 1px 4px 2px rgba(0, 0, 0, 0.08);
+
+}
+.withdraw_popup.active,.convert_popup.active {
+    max-width: 300px;
+    background: white;
+    position:relative!important;
+    margin: auto;
+    transition: all 1s ease;
+    transform: scale(0);
+    -webkit-transform: scale(1)!important;
+    -moz-transform: scale(1)!important;
+    -ms-transform: scale(1)!important;
+    -o-transform: scale(1)!important;
+    border-radius: 2px;
+    box-shadow: 1px 4px 2px rgba(0, 0, 0, 0.08);
+}
+.wallet_amount {
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    font-size: 41px;
+    font-weight: 300;
+    color: #1FBBA6;
+}
+.btn-bricky {
+    border: none;
+    font-size: 15px;
+    background-color: #1FBBA6;
+    color: #ffffff;
+    border-radius: 0px;
+    padding: 9px 19px;
+    margin-top: 13px;
+    text-decoration: none !important;
+}
+.withdraw_popup h3 {
+    color:#FB9C40!important;
+    border-bottom: 2px solid #e66b6b!important;
+}
+.convert_popup p,.withdraw_popup p {
+    padding: 8px;
+}
+.convert_popup label,.withdraw_popup label {
+    font-size: 13px;
+    color: gray;
+    padding: 8px;
+    padding-bottom: 3px;
+    margin: 0;
+}
+.wallet_total_button{
+    background: #fcf3e3;
+    color: #e66b6b;
+    margin-top: 13px;
+    margin-bottom: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    font-size: 17px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    border: 1px double #e66b6b;
+} 
+.yellow_big{
+    color: #ffa800;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 200;
+    padding-top:15px;
+}
+.panel.panel-default .panel-body.ewallet {
+    background: url('../../images/yellow_bg.jpg');
+    background-repeat: repeat-x;
+    background-size: auto;
+}
+.popup_input{
+    border-radius: 4px !important;
+    border-color: #e3e3e3 !important;
+    width: 100%;
+    height: 36px;
+    text-align: right;
+    color: #ccc7c7 !important;
+}
+a.dropdown-toggle {
+    font-size: 15px;
+}
+.dropdown-menu{
+    left: -145px !important;
+}

@@ -1,0 +1,24 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+$config['googleplus']['application_name'] 	= ' ';
+$config['googleplus']['client_id']        	= ' ';
+$config['googleplus']['client_secret']    	= '';
+$config['googleplus']['redirect_uri']     	= 'login/';
+$config['googleplus']['api_key']          	= '';
+$config['googleplus']['scopes']           	= array();
+$config['twitter']['consumerKey'] 			= '';
+$config['twitter']['consumerSecret']		= '';
+$config['twitter']['oauthCallback']     	= '';
+$config['twitter']['consumerKeyLocalhost'] 	= '';
+$config['twitter']['consumerSecretLocalhost']= '';
+$config['twitter']['oauthCallback']     	= '';
+$config['recaptcha']['site_key'] 			= '';
+$config['recaptcha']['secret_key']			= '';
+$config['recaptcha']['lang'] 				= 'en';
+$config['facebook']['app_id']              	= '';
+$config['facebook']['app_secret']         	= '';
+$config['facebook']['login_type']          	= '';
+$config['facebook']['login_redirect_url']  	= '';
+$config['facebook']['logout_redirect_url'] 	= '';
+$config['facebook']['graph_version']       	= 'v2.6';
+$config['facebook']['auth_on_load']        	= TRUE;
